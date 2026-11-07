@@ -2,7 +2,7 @@
   import { Github, MessageCircle, Linkedin, Youtube, Instagram, Facebook } from "lucide-svelte";
   import logo from "$lib/assets/logo.png";
   import { 
-    GITHUB_REPO_LINK,
+    GITHUB_ORG_LINK,
     WHATSAPP_COMMUNITY_LINK,
     LINKEDIN_PROFILE_LINK,
     YOUTUBE_CHANNEL_LINK,
@@ -76,7 +76,7 @@
           <span>Facebook</span>
         </a>
         <a
-          href={GITHUB_REPO_LINK}
+          href={GITHUB_ORG_LINK}
           target="_blank"
           rel="noopener noreferrer"
           title="GitHub"
