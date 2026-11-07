@@ -1,7 +1,7 @@
 <script>
   import { Menu, X, Github, Download, Sun, Moon } from "lucide-svelte";
   import logo from "$lib/assets/logo.png";
-  import { PLAY_STORE_LINK, GITHUB_REPO_LINK } from "$lib/links";
+  import { PLAY_STORE_LINK, GITHUB_ORG_LINK } from "$lib/links";
   import { theme } from "$lib/theme.svelte.js";
 
   let { scrollY = 0 } = $props();
@@ -42,7 +42,7 @@
       </button>
 
       <a
-        href={GITHUB_REPO_LINK}
+        href={GITHUB_ORG_LINK}
         target="_blank"
         rel="noopener noreferrer"
         title="GitHub"
@@ -92,7 +92,7 @@
       <a href="#features" onclick={toggleMenu}>Features</a>
       <a href="#app" onclick={toggleMenu}>Mobile App</a>
       <a
-        href={GITHUB_REPO_LINK}
+        href={GITHUB_ORG_LINK}
         target="_blank"
         rel="noopener noreferrer"
         onclick={toggleMenu}

@@ -2,7 +2,6 @@
   import { Github, Linkedin, Youtube, Instagram, Facebook } from "lucide-svelte";
   import founderImg from "$lib/assets/Founder.jpg";
   import { 
-    GITHUB_REPO_LINK,
     LINKEDIN_PROFILE_LINK,
     YOUTUBE_CHANNEL_LINK,
     INSTAGRAM_PROFILE_LINK,
