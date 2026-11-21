@@ -1,5 +1,5 @@
 <script>
-	const LAST_UPDATED = '18 October 2026';
+	const LAST_UPDATED = '21 November 2026';
 	const CONTACT_EMAIL = 'contact@devsafe.cm';
 </script>
 
@@ -38,16 +38,18 @@
 			<li><strong>Age data:</strong> date of birth or age declaration and, for users aged 10 to 14, a parent or guardian's phone number.</li>
 			<li><strong>ID verification data:</strong> photos of the ID document you submit, including a guardian's national ID card where required.</li>
 			<li><strong>Listings:</strong> book details, prices, meetup spots and photos you upload, plus an approximate location (rounded to about 1 km) taken from your device when you post a listing. Other users see this approximate location on the map, never your exact position.</li>
+			<li><strong>Book requests:</strong> the books you ask for: a title and, if you add them, the author, class level, subject and the most you would pay. Other students see only the title, class level and subject, and how many students want that book, never who asked.</li>
 			<li><strong>Messages:</strong> chat messages you exchange with other users about a listing.</li>
 			<li><strong>Transactions:</strong> purchase records, escrow status and the Mobile Money phone numbers used for payment.</li>
 			<li><strong>Reputation:</strong> ratings, reviews and a trust score based on completed transactions.</li>
-			<li><strong>Device data:</strong> a push notification token (Firebase Cloud Messaging) so we can notify you about messages and orders.</li>
+			<li><strong>Device data:</strong> a push notification token (Firebase Cloud Messaging) so we can notify you about messages, orders, your listings and book requests.</li>
 		</ul>
 
 		<h2>3. How we use your data</h2>
 		<ul>
 			<li>To create and secure your account.</li>
 			<li>To show your listings and public profile to other students.</li>
+			<li>To tell you when someone lists a book you asked for, and to show sellers which books students are looking for.</li>
 			<li>To process payments and hold funds in escrow until the buyer confirms receipt.</li>
 			<li>To verify identities and keep the marketplace safe.</li>
 			<li>To send notifications about messages, orders and account activity.</li>
@@ -90,7 +92,7 @@
 		<h2>7. Sharing your data</h2>
 		<p>We do not sell personal data and we do not share it for advertising. We share data only:</p>
 		<ul>
-			<li>With other users, as needed for a sale (for example, your public profile and listing details).</li>
+			<li>With other users, as needed for a sale (for example, your public profile, your listing details, and the title, class level and subject of books you request, without your name).</li>
 			<li>With service providers that host and run BookBridge: Supabase (database, storage and authentication), Google (sign-in and push notifications) and Fapshi (payments).</li>
 			<li>When required by law, or to protect users from fraud or harm.</li>
 		</ul>
@@ -99,14 +101,15 @@
 		<ul>
 			<li>Chat messages are deleted automatically after 7 days.</li>
 			<li>ID photos are deleted as soon as the review is complete.</li>
+			<li>Book requests stay open for 60 days unless you renew them. Closed, found and expired requests stay in your request history until you delete your account.</li>
 			<li>Transaction records are kept as long as needed for disputes, accounting and legal obligations.</li>
 			<li>Other account data is kept while your account is active and deleted when you delete your account.</li>
 		</ul>
 		<p>
-			When you delete your account, your profile, ID data, photos, messages and sign-in details are
-			deleted. Records of purchases, payments, ratings and feedback are kept without your name for
-			accounting and dispute purposes. See <a href="/delete-account">Delete your account</a> for the
-			full list.
+			When you delete your account, your profile, ID data, photos, messages, book requests and
+			sign-in details are deleted. Records of purchases, payments, ratings and feedback are kept
+			without your name for accounting and dispute purposes. See
+			<a href="/delete-account">Delete your account</a> for the full list.
 		</p>
 
 		<h2>9. Security</h2>

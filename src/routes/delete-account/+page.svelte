@@ -1,5 +1,5 @@
 <script>
-	const LAST_UPDATED = '18 October 2026';
+	const LAST_UPDATED = '21 November 2026';
 	const CONTACT_EMAIL = 'contact@devsafe.cm';
 	const EMAIL_SUBJECT = 'Delete my BookBridge account';
 	const mailto = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(EMAIL_SUBJECT)}`;
@@ -58,6 +58,12 @@
 				our storage too, email us as described below.
 			</li>
 			<li>
+				<strong>Book requests:</strong> go to <strong>Profile</strong> →
+				<strong>My book requests</strong> and tap <strong>Close</strong> on a request. It leaves the
+				"Students are looking for" list straight away and you stop getting notified about it. To have
+				it erased completely, email us as described below.
+			</li>
+			<li>
 				<strong>Favourites:</strong> tap the heart on a book to remove it from your favourites.
 			</li>
 			<li>
@@ -67,8 +73,8 @@
 			</li>
 		</ul>
 		<p>
-			To delete anything else, such as your ID verification photos, chat messages, listing photos or
-			profile photo,
+			To delete anything else, such as your ID verification photos, chat messages, book requests,
+			listing photos or profile photo,
 			email <a href={partialMailto}>{CONTACT_EMAIL}</a> from the email address you use for BookBridge
 			with the subject "{PARTIAL_SUBJECT}" and tell us what to delete. We will confirm the request is
 			yours and delete it within 30 days. Data we must keep for the reasons below is not deleted.
@@ -83,7 +89,7 @@
 			<li>ID verification photos and details.</li>
 			<li>Your sign-in details, sessions on all devices and your push notification token.</li>
 			<li>Book photos and descriptions. Listings that were never sold are deleted completely.</li>
-			<li>Chat messages you sent or received, favourites, wishlists and notifications.</li>
+			<li>Chat messages you sent or received, favourites, wishlists, book requests and notifications.</li>
 			<li>The Mobile Money numbers linked to your payments.</li>
 			<li>The written comments in reviews you gave.</li>
 		</ul>
